@@ -1,0 +1,98 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.big {
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border-radius: 20px;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0); /* Trong suốt hoàn toàn */
+  color: white;
+}
+/* navbar */
+
+/* product */
+.product-photo {
+  display: flex;
+  justify-content: center;
+}
+.product-button {
+  width: 250px;
+}
+.product-button button {
+  width: 200px;
+  font-size: 25px;
+  background-color: orangered;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.center-wrapper {
+  height: 10vh;                     /* Chiếm toàn bộ chiều cao màn hình */
+  display: flex;
+  justify-content: center;          /* Căn giữa theo chiều ngang */
+  align-items: center;              /* Căn giữa theo chiều dọc */
+  background: aliceblue;              /* Màu nền nhẹ để dễ nhìn */
+}
+
+.more-tag {
+  text-transform: uppercase;
+  border: 2px solid #000;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none; 
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.more-tag:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* search */
+.hide {
+  display: none;
+}
+#name_product {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+.star span {
+  color: #ffd43b;
+  font-size: 25px;
+  margin-left: 3px;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.siuu {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+
+/* footer  */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #56c5f8;
+}
